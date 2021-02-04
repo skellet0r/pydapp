@@ -246,3 +246,14 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# dependencies
+.pnp
+.pnp.js
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
