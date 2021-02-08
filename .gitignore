@@ -132,7 +132,7 @@ dmypy.json
 # eth-brownie
 .history
 reports/
-src/abis/
+src/artifacts
 
 ### Node ###
 # Logs

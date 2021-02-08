@@ -1,6 +1,6 @@
 # See https://eth-brownie.readthedocs.io/en/stable/config.html for more information
 project_structure:
-  build: src/abis
+  build: src/artifacts
   contracts: contracts
   interfaces: interfaces
   reports: reports
