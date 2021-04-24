@@ -23,6 +23,6 @@ Follow the steps below to complete the environment initialization:
 $ python -m venv venv
 $ ./venv/bin/activate
 $ pip install -r requirements.txt
-$ npm install
+$ npm ci
 $ sudo npm install -g ganache-cli
 ```
