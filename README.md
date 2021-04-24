@@ -13,6 +13,7 @@ To initialize your environment you'll need to have the following dependencies pr
 
 - [ ] `pip` - package manager
 - [ ] `npm` - package manager
+- [ ] `ganache-cli` - local RPC client for running tests
 
 > Note: This project uses python for smart contract development, but reactjs and nodejs for front-end development.
 
@@ -23,4 +24,5 @@ $ python -m venv venv
 $ ./venv/bin/activate
 $ pip install -r requirements.txt
 $ npm install
+$ sudo npm install -g ganache-cli
 ```
