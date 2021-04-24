@@ -145,6 +145,8 @@ ipfshttpclient==0.7.0a1
     # via
     #   eth-brownie
     #   web3
+isort==5.8.0
+    # via -r requirements.in
 jsonschema==3.2.0
     # via
     #   eth-brownie
