@@ -38,9 +38,9 @@ repos:
     hooks:
       - id: eslint
         additional_dependencies:
-          - eslint@7.19.0
+          - eslint@7.25.0
           - eslint-config-google@0.14.0
-          - eslint-plugin-react@7.22.0
+          - eslint-plugin-react@7.23.0
           - eslint-plugin-react-hooks@4.2.0
 
 default_language_version:
