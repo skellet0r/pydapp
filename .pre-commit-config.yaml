@@ -2,7 +2,7 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: v4.0.1
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -21,26 +21,26 @@ repos:
     hooks:
       - id: black
   - repo: https://gitlab.com/PyCQA/flake8
-    rev: 3.9.1
+    rev: 3.9.2
     hooks:
       - id: flake8
   - repo: https://github.com/pre-commit/mirrors-isort
-    rev: v5.8.0
+    rev: v5.9.1
     hooks:
       - id: isort
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v2.17.4
+    rev: v2.17.11
     hooks:
       - id: commitizen
         stages: [commit-msg]
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v7.19.0
+    rev: v7.29.0
     hooks:
       - id: eslint
         additional_dependencies:
-          - eslint@7.25.0
+          - eslint@7.29.0
           - eslint-config-google@0.14.0
-          - eslint-plugin-react@7.23.0
+          - eslint-plugin-react@7.23.2
           - eslint-plugin-react-hooks@4.2.0
 
 default_language_version:
