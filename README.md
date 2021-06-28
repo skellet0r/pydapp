@@ -25,4 +25,5 @@ $ ./venv/bin/activate
 $ pip install -r requirements.txt
 $ npm ci
 $ sudo npm install -g ganache-cli
+$ pre-commit install
 ```
